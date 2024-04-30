@@ -1,6 +1,6 @@
+import './signup.css';
 import { FormField } from '../formField/FormField';
 import { useForm } from 'react-hook-form';
-import './signup.css';
 import { fieldsScheme } from '../../utils/validationSchema'
 import { yupResolver } from '@hookform/resolvers/yup';
 
